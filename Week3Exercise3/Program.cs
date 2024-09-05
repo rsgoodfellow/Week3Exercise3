@@ -91,12 +91,15 @@ namespace Week3Exercise3
                 {
                     case 1: //case 1 for users input
                         ReverseString(userInput); //calls ReverseString method with users input
+                        Console.WriteLine(""); //displays a blank line
                         break; //breaks from switch loop
                     case 2: //case 2 for users input
                         CountVowels(userInput); //calls CountVowels method with users input
+                        Console.WriteLine(""); //displays a blank line
                         break; //breaks from switch loop
                     case 3: //case 3 for users input
                         IsPalindrome(userInput);//calls IsPalindrome method with users input
+                        Console.WriteLine(""); //displays a blank line
                         break; //breaks from switch loop
                 }
             }
